@@ -32,12 +32,12 @@
             ],
             "styles": [
               "bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.styl"
+              "bootstrap/dist/css/style_1.css"
+
             ],
             "scripts": [
               "bootstrap/dist/js/jquery-3.6.0.min.js",
-             "bootstrap/dist/js/bootstrap.min.js"
-              
+             "bootstrap/dist/js/bootstrap.min.js"              
             ]
           },
           "configurations": {
