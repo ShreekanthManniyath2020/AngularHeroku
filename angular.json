@@ -31,13 +31,17 @@
               "src/assets"
             ],
             "styles": [
-              "bootstrap/dist/css/bootstrap.min.css",
-              "bootstrap/dist/css/style_1.css"
-
-            ],
+              "bootstrap/externalstyle/css/bootstrap.css",
+              "bootstrap/externalstyle/css/font-awesome.css",
+              "bootstrap/externalstyle/css/animate.css",
+              "bootstrap/externalstyle/css/poppins.css",
+              "bootstrap/externalstyle/css/owl.carousel.css",
+              "bootstrap/externalstyle/css/style_1.css"
+             ],
             "scripts": [
               "bootstrap/dist/js/jquery-3.6.0.min.js",
-             "bootstrap/dist/js/bootstrap.min.js"              
+             "bootstrap/dist/js/bootstrap.min.js",
+             "bootstrap/externalstyle/js/modernizr-3.5.0.min.js"             
             ]
           },
           "configurations": {
