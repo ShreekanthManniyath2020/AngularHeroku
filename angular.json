@@ -31,8 +31,9 @@
               "src/assets"
             ],
             "styles": [
+              "bootstrap/externalstyle/css/media_query.css",
               "bootstrap/externalstyle/css/bootstrap.css",
-              "bootstrap/externalstyle/css/font-awesome.css",
+              "bootstrap/externalstyle/css/font-awesome.min.css",
               "bootstrap/externalstyle/css/animate.css",
               "bootstrap/externalstyle/css/poppins.css",
               "bootstrap/externalstyle/css/owl.carousel.css",
