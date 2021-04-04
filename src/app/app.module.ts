@@ -6,7 +6,13 @@ import { AppComponent } from './app.component';
 import { BannerComponent } from './common/banner/banner.component';
 import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
-import { PageNotFoundComponent } from './common/page-not-found/page-not-found.component';
+import { NewsComponent } from './pages/news/news.component';
+import { TrendingComponent } from './pages/trending/trending.component';
+import { TrailersComponent } from './pages/trailers/trailers.component';
+import { ToppicsComponent } from './pages/toppics/toppics.component';
+//import { MoviesModule} from './movies/movies.module';
+import { PagesModule} from './pages/pages.module';
+
 
 @NgModule({
   declarations: [
@@ -14,11 +20,15 @@ import { PageNotFoundComponent } from './common/page-not-found/page-not-found.co
     BannerComponent,
     HeaderComponent,
     FooterComponent,
-    PageNotFoundComponent
+    NewsComponent,
+    TrendingComponent,
+    TrailersComponent,
+    ToppicsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

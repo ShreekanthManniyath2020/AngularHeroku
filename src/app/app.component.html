@@ -2,9 +2,12 @@
 
 <!-- Toolbar -->
 <div>
-    <app-header></app-header>
-   <app-banner></app-banner>
-   <app-footer></app-footer>
+   <app-header></app-header>
+   <app-banner *ngIf="router.url == '/'"></app-banner>
+   <app-trending *ngIf="router.url == '/'"></app-trending>
+   <app-toppics *ngIf="router.url == '/'"></app-toppics>
+   <app-trailers *ngIf="router.url == '/'"></app-trailers>
+   <app-news *ngIf="router.url == '/'"></app-news>  
    <router-outlet></router-outlet>
-
+   <app-footer></app-footer>
 </div>
