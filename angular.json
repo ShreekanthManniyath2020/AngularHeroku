@@ -30,27 +30,8 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/assets/css/media_query.css",
-              "src/assets/css/bootstrap.css",
-              "src/assets/css/font-awesome.min.css",
-              "src/assets/css/animate.css",
-              "src/assets/css/poppins.css",
-              "src/assets/css/owl.carousel.css",
-              "src/assets/css/owl.theme.default.css",
-              "src/assets/css/style_1.css"
-             ],
-            "scripts": [
-             "src/assets/js/modernizr-3.5.0.min.js",
-             "src/assets/js/jquery.min.js",
-             "src/assets/js/owl.carousel.min.js",
-             "src/assets/js/tether.min.js",
-             "src/assets/js/bootstrap.min.js",
-             "src/assets/js/jquery.waypoints.min.js",
-             "src/assets/js/jquery.stellar.min.js"  ,
-             "src/assets/js/main.js"
-               
-            ]
+            "styles": [ ],
+            "scripts": [ ]
           },
           "configurations": {
             "production": {
